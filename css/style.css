@@ -1,0 +1,46 @@
+html{
+    overflow: hidden;
+}
+
+.mealShowCase{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
+}
+
+.mealShowCase li{
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+.sectionMeals ul{
+    margin: 0;
+}
+
+.mealPhoto{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+.mealPhoto img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.30);
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+  
+
+}
+
+.mealPhoto img:hover{
+    transform: scale(1.20);
+}
